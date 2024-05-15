@@ -1,6 +1,6 @@
 import './App.css';
-import CardButton from './CardButton/CardButton';
-import JournalItem from './JournalItem/JournalItem';
+import CardButton from './components/CardButton/CardButton';
+import JournalItem from './components/JournalItem/JournalItem';
 import Button from './components/Button/Button';
 
 function App() {
