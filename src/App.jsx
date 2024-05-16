@@ -6,6 +6,7 @@ import JournalList from './components/JournalList/JournalList';
 import LeftPanel from './layouts/LeftPanel/LeftPanel';
 import Body from './layouts/Body/Body';
 import JournalAddButton from './components/JournalAddButton/JournalAddButton';
+import { useState } from 'react';
 
 function App() {
 	const data = [
@@ -16,6 +17,12 @@ function App() {
 		},
 		{ title: 'Разбор props', text: 'Прокидывание пропсов', date: new Date() }
 	];
+
+	const [inputData, setInputData] = useState('');
+
+	const inputChange = (event) => {
+		setInputData(event.target.value);
+	};
 
 	return (
 		<>
@@ -32,7 +39,9 @@ function App() {
 						</CardButton>
 					</JournalList>
 				</LeftPanel>
-				<Body>Body</Body>
+				<Body>
+					<input type="text" value={inputData} onChange={inputChange} />
+				</Body>
 			</div>
 		</>
 	);
