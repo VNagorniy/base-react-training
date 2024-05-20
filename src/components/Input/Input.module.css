@@ -1,3 +1,20 @@
+.input-title {
+	color: #fff;
+	border: none;
+	background: none;
+	font-size: 32px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	font-family: 'Source Sans 3', sans-serif;
+	border-bottom: 1px solid #323232;
+	width: 100%;
+}
+
+input[type='date']::-webkit-calendar-picker-indicator {
+	filter: invert(100%);
+}
+
 .input {
 	color: #fff;
 	width: 100%;
@@ -9,10 +26,6 @@
 	line-height: normal;
 	font-family: 'Source Sans 3', sans-serif;
 	border-bottom: 1px solid #323232;
-}
-
-.input-title {
-	font-size: 32px;
 }
 
 .invalid {
