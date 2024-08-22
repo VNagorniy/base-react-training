@@ -1,8 +1,12 @@
-# React + Vite
+## Создание приложения (журнал-воспоминания)
+[Смотреть демо](https://memoryjournal-react-njnvqu8lm-vnagorniys-projects.vercel.app/)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+- Vite
 
-Currently, two official plugins are available:
+Работа с основами React:
+- Использование useCallback, useMemo.
+- Просмотр работы memo.
+- Работа с контекстом.
+- Работа с хуками useEffect, useRef.
+- Стилизация через CSS-модули.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
